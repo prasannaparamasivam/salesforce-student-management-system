@@ -1,0 +1,40 @@
+# -------------------------------
+# Salesforce Project .gitignore
+# -------------------------------
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.iml
+
+# Node modules (if using LWC or JS tooling)
+node_modules/
+npm-debug.log
+
+# Salesforce CLI temporary files
+.sfdx/
+.localdevserver/
+
+# VSCode Salesforce Extensions temp
+sf-plugins/
+sf-cache/
+
+# Log files
+*.log
+
+# Environment files (never upload secrets)
+.env
+.env.local
+.env.*
+
+# Coverage / Test results
+coverage/
+test-output/
+
+# Misc
+*.zip
+*.tmp
